@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --background-color: #1c1c1c;
+            --text-color: #f6f6f6;
+            --error-color: #ff6b6b;
+            --button-color: #868686;
+            --button-hover-color: #b6ff1b;
+            --text-color-button: #ffffff;
+            --text-color-button-hover: #000000;
+        }
+
+        body {
+            background-color: var(--background-color);
+            font-family: 'Open Sans', sans-serif;
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 6rem;
+            color: var(--error-color);
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        p {
+            margin: 20px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: var(--button-color);
+            color: var(--text-color-button);
+            border: none;
+            transition: background-color 0.3s;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 16px;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: var(--button-hover-color);
+            color: var(--text-color-button-hover);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>404</h1>
+    <h2>Page Not Found</h2>
+    <p>We're sorry, but the page you were looking for doesn't exist.</p>
+    <a href="https://furkancanby.me"><button>Go to Homepage</button></a>
+</body>
+
+</html>
